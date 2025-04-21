@@ -22,28 +22,31 @@ git clone https://github.com/matheeusshn/barreira-zero-api.git
 cd barreira-zero-api
 npm install
 npm run dev
-
+```
 
 ---
 
-🔍 Exemplos de uso
+## 🔍 Exemplos de uso
 
-📘 Traduzir para LIBRAS
+### 📘 Traduzir para LIBRAS
 
 ```http
 GET /traduz?texto=Olá, tudo bem?
+```
 
-🎧 Transcrição de áudio
+### 🎧 Transcrição de áudio
 
 ```http
 GET /audios/descricao?audio_url=https://exemplo.com/audio.mp3
+```
 
-🧩 Botão acessível
+### 🧩 Botão acessível
 
 ```http
 GET /botao-acessivel
+```
 
-📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto
 
 ```pgsql
 barreira-zero-api/
@@ -59,3 +62,4 @@ barreira-zero-api/
 ├── server.js
 ├── package.json
 └── README.md
+```
