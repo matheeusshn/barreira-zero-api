@@ -1,0 +1,24 @@
+{
+  "name": "barreira-zero-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheeusshn/barreira-zero-api.git"
+  },
+  "keywords": ["acessibilidade", "libras", "inclusao", "api", "educacional", "surdez", "cegueira"],
+  "author": "Matheus H.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheeusshn/barreira-zero-api/issues"
+  },
+  "homepage": "https://github.com/matheeusshn/barreira-zero-api#readme",
+  "description": "API utilitária voltada à inclusão digital de pessoas surdas e cegas com foco em acessibilidade real.",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
