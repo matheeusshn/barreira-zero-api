@@ -17,7 +17,7 @@ A **Barreira Zero** é uma API utilitária que promove **inclusão digital** par
 
 ## 📦 Instalação
 
-```bash```
+```bash
 git clone https://github.com/matheeusshn/barreira-zero-api.git
 cd barreira-zero-api
 npm install
@@ -26,26 +26,26 @@ npm run dev
 
 ---
 
-## 🔍 Exemplos de uso
+🔍 Exemplos de uso
 
-### 📘 Traduzir para LIBRAS
+📘 Traduzir para LIBRAS
 
-```http```
+```http
 GET /traduz?texto=Olá, tudo bem?
 
-### 🎧 Transcrição de áudio
+🎧 Transcrição de áudio
 
-```http```
+```http
 GET /audios/descricao?audio_url=https://exemplo.com/audio.mp3
 
-### 🧩 Botão acessível
+🧩 Botão acessível
 
-```http```
+```http
 GET /botao-acessivel
 
-### 📁 Estrutura do Projeto
+📁 Estrutura do Projeto
 
-```pgsql```
+```pgsql
 barreira-zero-api/
 ├── controllers/
 │   ├── acessibilidadeController.js
