@@ -1,3 +1,4 @@
+// Gera um botão acessível com atributos ARIA
 class acessibilidadeController {
     gerarBotaoAcessivel(req, res) {
         res.json({
@@ -6,5 +7,4 @@ class acessibilidadeController {
         });
     }
 }
-
 export default new acessibilidadeController();

@@ -5,14 +5,14 @@ import acessibilidadeRoute from './routes/acessibilidade.route.js';
 
 const app = express();
 
-// Rotas principais
-app.use('/traduz', librasRoute);
-app.use('/audios', audioRoute);
-app.use('/botao-acessivel', acessibilidadeRoute);
-
-// Rota raiz
+// Rota principal de status
 app.get('/', (req, res) => {
     res.send('API Barreira Zero está online!');
 });
+
+// Definindo as rotas da aplicação
+app.use('/traduz', librasRoute);
+app.use('/audios', audioRoute);
+app.use('/botao-acessivel', acessibilidadeRoute);
 
 export default app;
